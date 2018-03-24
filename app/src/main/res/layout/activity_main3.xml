@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="28dp">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tableLayout2"
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:stretchColumns="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.666">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="155dp"
+                    android:layout_height="match_parent"
+                    android:padding="3dip"
+                    android:text="Cliente:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textCliente"
+                    android:layout_width="204dp"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+
+                <TextView
+                    android:layout_width="156dp"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="Stato"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textCorso"
+                    android:layout_width="204dp"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="3dip"
+                    android:text="Dispositivo:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textDispositivo"
+                    android:layout_width="102dp"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="3dip"
+                    android:text="Descrizione problema:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textDesc_pro"
+                    android:layout_width="102dp"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="3dip"
+                    android:text="Data di accettazione:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textData_acc"
+                    android:layout_width="102dp"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="3dip"
+                    android:text="Data di completamento:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textData_Comp"
+                    android:layout_width="102dp"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+        </TableLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
