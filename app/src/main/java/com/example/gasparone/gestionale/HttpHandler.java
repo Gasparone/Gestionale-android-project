@@ -19,6 +19,7 @@ public class HttpHandler {
     public HttpHandler() {
     }
 
+
     public String makeServiceCall(String reqUrl) {
         String response = null;
         try {
